@@ -9,7 +9,7 @@ import java.util.Optional;
 
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3001"})
+@CrossOrigin(origins = {"https://crystal-epoxy-frontend.herokuapp.com/"})
 @RequestMapping(path="/")
 public class ProductController {
 
